@@ -13,7 +13,7 @@ class Config:
     BOT_PM = True
     CMD_SUFFIX = ""
     DEFAULT_LANG = "en"
-    DATABASE_URL = ""
+    DATABASE_URL = "mongodb+srv://kentkouhwcsps:vNJdZFcCPyCShL2J@cluster0.rnjjo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     DEFAULT_UPLOAD = "rc"
     DELETE_LINKS = True
     DISABLE_TORRENTS = False
@@ -27,14 +27,14 @@ class Config:
     FFMPEG_CMDS = {}
     FILELION_API = ""
     MEDIA_STORE = True
-    FORCE_SUB_IDS = ""
+    FORCE_SUB_IDS = "-1002402827530"
     GDRIVE_ID = ""
-    GD_DESP = "Uploaded with WZ Bot"
-    AUTHOR_NAME = "WZML-X"
-    AUTHOR_URL = "https://t.me/WZML_X"
+    GD_DESP = "Uploaded with Ayu Bot"
+    AUTHOR_NAME = "AYU-BOTS"
+    AUTHOR_URL = "https://t.me/Ayu_bots"
     INSTADL_API = ""
     IMDB_TEMPLATE = ""
-    INCOMPLETE_TASK_NOTIFIER = False
+    INCOMPLETE_TASK_NOTIFIER = True
     INDEX_URL = ""
     IS_TEAM_DRIVE = False
     JD_EMAIL = ""
@@ -55,9 +55,9 @@ class Config:
     EXTRACT_LIMIT = 0
     ARCHIVE_LIMIT = 0
     STORAGE_LIMIT = 0
-    LEECH_DUMP_CHAT = ""
-    LINKS_LOG_ID = ""
-    MIRROR_LOG_ID = ""
+    LEECH_DUMP_CHAT = "-1002369533675"
+    LINKS_LOG_ID = "-1002369533675"
+    MIRROR_LOG_ID = "-1002369533675"
     CLEAN_LOG_MSG = False
     LEECH_PREFIX = ""
     LEECH_CAPTION = ""
@@ -70,10 +70,10 @@ class Config:
     HYDRA_IP = ""
     HYDRA_API_KEY = ""
     NAME_SWAP = ""
-    OWNER_ID = 0
+    OWNER_ID = 1685470205
     QUEUE_ALL = 0
-    QUEUE_DOWNLOAD = 0
-    QUEUE_UPLOAD = 0
+    QUEUE_DOWNLOAD = 1
+    QUEUE_UPLOAD = 1
     RCLONE_FLAGS = ""
     RCLONE_PATH = ""
     RCLONE_SERVE_URL = ""
@@ -93,8 +93,8 @@ class Config:
     STOP_DUPLICATE = False
     STREAMWISH_API = ""
     SUDO_USERS = ""
-    TELEGRAM_API = 0
-    TELEGRAM_HASH = ""
+    TELEGRAM_API = 20393417
+    TELEGRAM_HASH = "d4b6be89670498d4793794a882796de2"
     TG_PROXY = None
     THUMBNAIL_LAYOUT = ""
     VERIFY_TIMEOUT = 0
